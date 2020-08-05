@@ -1,8 +1,153 @@
-body {
-    background-color: #e6e6e6 !important;
-}
-.main_logo {
-    width: 105px;
-    height: 105px;
-}
 
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: #f0f0f0 !important;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+    }
+
+    .top_container {
+        box-sizing: border-box !important;
+        height: 180px !important;
+        width: 100% !important;
+        background-color: #e6e6e6 !important;
+    }
+
+    .nav_bar {
+        width: 100%;
+        height: 240px;
+        background-color: white;
+    }
+
+    body {
+        /*display: flex;
+        flex-direction: column;
+        align-items: center;*/
+        text-align: center;
+
+    }
+
+    .nav_items {
+        position: relative;
+        bottom: 350px;
+        font-family: 'Abel', sans-serif;
+    }
+
+    div h2 {
+        font-size: 120px;
+    }
+
+    .nav_links {
+
+        margin: 0 auto;
+        width: 75%;
+        /*display: flex !important;
+        justify-content: space-evenly;*/
+        font-size: 45px;
+    }
+
+    .nav_links a {
+        color: black;
+        padding: 0 0.5em;
+    }
+
+    main {
+        position: relative;
+        bottom: 300px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    main h1 {
+        font-size: 130px;
+        width: 100%;
+
+    }
+
+    main h2 {
+        font-size: 80px;
+    }
+
+    .main_circles {
+        font-size: 70px;
+        color: white;
+        margin-top: 56px;
+
+    }
+
+    .circle {
+        box-sizing: content-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 320px;
+        width: 320px;
+        border: white 15px solid;
+    }
+
+    .orange_bcircle {
+        background-color: #e6563b;
+        margin-left: 1.85em;
+        margin-right: 0.8em;
+    }
+
+    .gold_bcircle {
+        background-color: #dea03d;
+
+    }
+
+    .lgreen_bcircle {
+        background-color: #7cb06c;
+        margin-left: 1.85em;
+        margin-right: 0.8em;
+        margin-top: 0.25em;
+    }
+
+    .aqua_bcircle {
+        background-color: #00aba9;
+        margin-top: 0.25em;
+
+    }
+
+    article h3 {
+        font-family: 'Abel', sans-serif;
+        font-size: 45px;
+    }
+
+    article img {
+        border: 15px #e6e6e6 solid;
+    }
+
+    .img_footer {
+        box-sizing: border-box;
+    }
+
+    .small_circle {
+        box-sizing: content-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.3em;
+        width: 1.3em;
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+
+
+    }
+
+    .orange_scircle {
+        background-color: #e6563b;
+    }
+
+    .lgreen_scircle {
+        background-color: #7cb06c;
+    }
+
+    .aqua_scircle {
+        background-color: #00aba9;
+    }
+
+    article img {
+        width: 100%
+    }
+}
