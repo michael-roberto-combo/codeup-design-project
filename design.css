@@ -5,18 +5,19 @@
         padding: 0;
         margin: 0;
         position: absolute;
+        width: 100%;
     }
 
     .top_container {
         box-sizing: border-box !important;
-        height: 180px !important;
+        height: 50px !important;
         width: 100% !important;
-        background-color: #e6e6e6 !important;
+        background-color: #f0f0f0 !important;
     }
 
     .nav_bar {
         width: 100%;
-        height: 240px;
+        height: 70px !important;
         background-color: white;
     }
 
@@ -30,21 +31,21 @@
 
     .nav_items {
         position: relative;
-        bottom: 350px;
+        bottom: 85px;
         font-family: 'Abel', sans-serif;
     }
 
     div h2 {
-        font-size: 120px;
+        font-size: 34px;
     }
 
     .nav_links {
 
         margin: 0 auto;
-        width: 75%;
-        /*display: flex !important;
-        justify-content: space-evenly;*/
-        font-size: 45px;
+        width: 50%;
+        display: flex !important;
+        justify-content: space-evenly;
+        font-size: 13px;
     }
 
     .nav_links a {
@@ -54,24 +55,28 @@
 
     main {
         position: relative;
-        bottom: 300px;
+        bottom: 95px;
         font-family: 'Anton', sans-serif;
+    }
+    .main_logo{
+        height: 105px;
+        width: 105px;
     }
 
     main h1 {
-        font-size: 130px;
+        font-size: 47px;
         width: 100%;
 
     }
 
     main h2 {
-        font-size: 80px;
+        font-size: 31px;
     }
 
     .main_circles {
-        font-size: 70px;
+        font-size: 31px;
         color: white;
-        margin-top: 56px;
+        margin-top: 16px;
 
     }
 
@@ -80,15 +85,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 320px;
-        width: 320px;
-        border: white 15px solid;
+        height: 130px;
+        width: 130px;
+        border: white 8px solid;
     }
 
     .orange_bcircle {
         background-color: #e6563b;
-        margin-left: 1.85em;
-        margin-right: 0.8em;
+        margin-left: 1.4em;
+        margin-right: 0.5em;
     }
 
     .gold_bcircle {
@@ -98,8 +103,8 @@
 
     .lgreen_bcircle {
         background-color: #7cb06c;
-        margin-left: 1.85em;
-        margin-right: 0.8em;
+        margin-left: 1.4em;
+        margin-right: 0.5em;
         margin-top: 0.25em;
     }
 
@@ -111,11 +116,11 @@
 
     article h3 {
         font-family: 'Abel', sans-serif;
-        font-size: 45px;
+        font-size: 13px;
     }
 
     article img {
-        border: 15px #e6e6e6 solid;
+        border: 8px #e6e6e6 solid;
     }
 
     .img_footer {
@@ -127,9 +132,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 1.3em;
-        width: 1.3em;
-        font-size: 30px;
+        height: 1em;
+        width: 1em;
+        font-size: 13px;
         font-family: 'Anton', sans-serif;
 
 
