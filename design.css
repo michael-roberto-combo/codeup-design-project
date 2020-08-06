@@ -1,38 +1,125 @@
+body {
+    background-color: #f0f0f0 !important;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.top_container {
+    box-sizing: border-box !important;
+    height: 50px !important;
+    width: 100% !important;
+    background-color: #f0f0f0 !important;
+}
+.nav_bar {
+    width: 100%;
+    height: 70px !important;
+    background-color: white;
+}
+div h2 {
+    font-size: 34px;
+}
+.nav_links a {
+    color: black;
+    padding: 0 0.5em;
+}
+.main_logo{
+    height: 105px;
+    width: 105px;
+}
+main h2 {
+    font-size: 31px;
+}
+main h1 {
+    font-size: 47px;
+    width: 100%;
+
+}
+.main_circles {
+    font-size: 31px !important;
+    color: white;
+    margin-top: 16px;
+}
+.circle {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    border: white 8px solid;
+}
+.orange_bcircle {
+    background-color: #e6563b;
+    margin-left: 1.3em;
+    margin-right: 0.5em;
+}
+.gold_bcircle {
+    background-color: #dea03d;
+
+}
+.lgreen_bcircle {
+    background-color: #7cb06c;
+    margin-left: 1.3em;
+    margin-right: 0.5em;
+    margin-top: 0.25em;
+}
+
+.aqua_bcircle {
+    background-color: #00aba9;
+    margin-top: 0.25em;
+
+}
+article h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 13px;
+}
+
+article img {
+    border: 8px #e6e6e6 solid;
+}
+
+.img_footer {
+    box-sizing: border-box;
+}
+
+.small_circle {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1em;
+    width: 1em;
+    font-size: 13px;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+.orange_scircle {
+    background-color: #e6563b;
+}
+
+.lgreen_scircle {
+    background-color: #7cb06c;
+}
+
+.aqua_scircle {
+    background-color: #00aba9;
+}
+
+article img {
+    width: 100%
+}
+
 
 @media only screen and (max-width: 767px) {
-    body {
-        background-color: #f0f0f0 !important;
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        width: 100%;
-        text-align: center;
-    }
-
-    .top_container {
-        box-sizing: border-box !important;
-        height: 50px !important;
-        width: 100% !important;
-        background-color: #f0f0f0 !important;
-    }
-
-    .nav_bar {
-        width: 100%;
-        height: 70px !important;
-        background-color: white;
-    }
-
-
     .nav_items {
         position: relative;
         bottom: 85px;
         font-family: 'Abel', sans-serif;
     }
-
-    div h2 {
-        font-size: 34px;
-    }
-
     .nav_links {
 
         margin: 0 auto;
@@ -41,112 +128,28 @@
         justify-content: space-evenly;
         font-size: 13px;
     }
-
-    .nav_links a {
-        color: black;
-        padding: 0 0.5em;
-    }
-
     main {
         position: relative;
         bottom: 95px;
         font-family: 'Anton', sans-serif;
     }
-    .main_logo{
-        height: 105px;
-        width: 105px;
-    }
-
-    main h1 {
-        font-size: 47px;
-        width: 100%;
-
-    }
-
-    main h2 {
-        font-size: 31px;
-    }
-
-    .main_circles {
-        font-size: 31px;
-        color: white;
-        margin-top: 16px;
-
-    }
-
-    .circle {
-        box-sizing: content-box;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 130px;
-        width: 130px;
-        border: white 8px solid;
-    }
-
-    .orange_bcircle {
-        background-color: #e6563b;
-        margin-left: 1.3em;
-        margin-right: 0.5em;
-    }
-
-    .gold_bcircle {
-        background-color: #dea03d;
-
-    }
-
-    .lgreen_bcircle {
-        background-color: #7cb06c;
-        margin-left: 1.3em;
-        margin-right: 0.5em;
-        margin-top: 0.25em;
-    }
-
-    .aqua_bcircle {
-        background-color: #00aba9;
-        margin-top: 0.25em;
-
-    }
-
-    article h3 {
-        font-family: 'Abel', sans-serif;
-        font-size: 13px;
-    }
-
-    article img {
-        border: 8px #e6e6e6 solid;
-    }
-
-    .img_footer {
-        box-sizing: border-box;
-    }
-
-    .small_circle {
-        box-sizing: content-box;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 1em;
-        width: 1em;
-        font-size: 13px;
-        font-family: 'Anton', sans-serif;
 
 
-    }
 
-    .orange_scircle {
-        background-color: #e6563b;
-    }
 
-    .lgreen_scircle {
-        background-color: #7cb06c;
-    }
 
-    .aqua_scircle {
-        background-color: #00aba9;
-    }
 
-    article img {
-        width: 100%
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
