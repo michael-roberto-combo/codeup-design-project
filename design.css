@@ -6,6 +6,7 @@
         margin: 0;
         position: absolute;
         width: 100%;
+        text-align: center;
     }
 
     .top_container {
@@ -21,13 +22,6 @@
         background-color: white;
     }
 
-    body {
-        /*display: flex;
-        flex-direction: column;
-        align-items: center;*/
-        text-align: center;
-
-    }
 
     .nav_items {
         position: relative;
@@ -92,7 +86,7 @@
 
     .orange_bcircle {
         background-color: #e6563b;
-        margin-left: 1.4em;
+        margin-left: 1.3em;
         margin-right: 0.5em;
     }
 
@@ -103,7 +97,7 @@
 
     .lgreen_bcircle {
         background-color: #7cb06c;
-        margin-left: 1.4em;
+        margin-left: 1.3em;
         margin-right: 0.5em;
         margin-top: 0.25em;
     }
