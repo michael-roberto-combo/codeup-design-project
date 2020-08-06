@@ -70,29 +70,25 @@ main h1 {
 .aqua_bcircle {
     background-color: #00aba9;
 
-
 }
 article h3 {
     font-family: 'Abel', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
 }
-
-article img {
+.left_image {
     border: 8px #e6e6e6 solid;
 }
-
 .img_footer {
     box-sizing: border-box;
 }
-
 .small_circle {
     box-sizing: content-box;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 1em;
     width: 1em;
-    font-size: 13px;
+    font-size: 9px;
     font-family: 'Anton', sans-serif;
 
 
@@ -113,58 +109,65 @@ article img {
 article img {
     width: 100%
 }
+.footer_text {
+    flex-basis: 80% !important;
+}
+.picture-block-2 h3 {
+    text-align: left !important;
+}
+.side_text {
+    font-family: 'Anton', sans-serif;
+}
+.mini_image{
+    width: 70px !important;
+    height: 80px !important;
+    box-sizing: border-box;
 
+}
+.right_article img{
+    border: 1px #e6e6e6 solid;
+}
+.right_article p{
+    font-size: 1.4em !important;
+}
+#last_tweet {
+    font-size: 12px !important;
+}
+i {
+    color: dodgerblue;
+    font-size: 20px;
+}
 
 @media only screen and (max-width: 767px) {
 
     hr{
         display: none;
     }
-
-    .orange_bcircle {
-
-        margin-left: 1.3em;
-        margin-right: 0.5em;
+    .circle {
+        margin: 10px;
     }
-    .gold_bcircle {
-
-
-    }
-    .lgreen_bcircle {
-
-        margin-left: 1.3em;
-        margin-right: 0.5em;
-        margin-top: 0.25em;
-    }
-
-    .aqua_bcircle {
-
-        margin-top: 0.25em;
-
-    }
-
-
-
 
     .nav_items {
         position: relative;
         bottom: 85px;
         font-family: 'Abel', sans-serif;
     }
-
     .nav_links {
 
         margin: 0 auto;
-        width: 50%;
+        width: 220px;
         display: flex !important;
         justify-content: space-evenly;
         font-size: 13px;
     }
-
     main {
         position: relative;
         bottom: 95px;
         font-family: 'Anton', sans-serif;
+        text-align: center;
+    }
+    .right_article {
+        display: none !important;
     }
 }
 @media only screen and (min-width: 768px){
@@ -177,11 +180,8 @@ article img {
 
         .nav_links {
             position: relative;
-            bottom: 117px;
-            width: 100%;
+            bottom: 115.5px;
             right: 7px;
-
-
        }
         .work {
 
@@ -206,8 +206,12 @@ article img {
 
         }
 
+    .left_image {
+        height: 11em;
+    }
+
     hr{
-    width: 75%;
+    width: 65%;
     }
 
     .picture-block {
@@ -224,19 +228,67 @@ article img {
 
 
     }
-    article img {
-        height: 11em;
 
-
-    }
     .picture-block-2{
         height: 500px;
 
     }
+    .right_article {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 992px){
+    .main_logo {
+    position: relative;
+    right: 405px;
+    }
+    .text_logo {
+        position: relative;
+        bottom: 69.5px;
+        right: 250px;
+    }
+    .work {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .blog {
+        margin-left: 0;
+    }
+    .nav_links{
+        position: relative;
+        width: 280px;
+        right: -350px;
+        margin:0 auto;
+    }
+    hr {
+        width: 90%;
+    }
+    .left_article {
+        width: 70% !important;
+    }
+    .right_article{
+        display: block !important;
+        width: 30% !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    hr {
+        width: 75%;
+    }
 
+    .left_image {
+        height: 11em !important;
+        width: 256px !important;
+    }
 
-
-
-
+    .picture-block {
+        box-sizing: border-box;
+        width: 16em;
+        height: 11em;
+        margin: auto;
+    }
+    .img_footer {
+        width: 256px;
+    }
 
 }

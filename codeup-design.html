@@ -10,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://kit.fontawesome.com/2a6f78e7e8.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="top_container"></div>
 <nav class="nav_bar"></nav>
 <div class="nav_items">
     <img class="main_logo" src="logo.png" alt="logo">
-    <h2>codeup design</h2>
+    <h2 class="text_logo">codeup design</h2>
     <div class="nav_links my-3 text-uppercase">
         <a href="#">services</a>
         <a href="#" class="work">work</a>
@@ -25,12 +25,12 @@
         <a href="#">contact</a>
     </div>
 </div>
-<main class="my-4 text-uppercase">
+<main class="my-4 text-uppercase text-align-center">
     <h1 class="mb-3">visual design & web development</h1>
     <br>
     <h2 class="">from park city, utah</h2>
     <br>
-    <section class="main_circles row justify-content-around">
+    <section class="main_circles row justify-content-around w-78 container m-auto">
         <div class="circle orange_bcircle rounded-circle col-xs-6 col-s-3">design</div>
         <div class="circle gold_bcircle rounded-circle col-xs-6 col-s-3">develop</div>
         <div class="circle lgreen_bcircle rounded-circle col-xs-6 col-s-3">support</div>
@@ -38,55 +38,88 @@
     </section>
     <hr class="">
 </main>
-<article class="text-uppercase container">
-    <h3 class="mb-5">selected work</h3>
-    <section class="picture-block-2 row justify-content-around">
-        <div class="picture-block col-xs-12 col-s-6">
-            <img src="apple-ipad.jpg" class="rounded" alt="apple with ipad">
-            <section class="m-auto img_footer d-flex justify-content-center p-2">
-                <div class="mr-auto"><h3>featured project</h3></div>
-                <div class="p-2 small_circle rounded-circle orange_scircle ">d</div>
-                <div class="mx-3 p-2 small_circle gold_bcircle rounded-circle">d</div>
-                <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
-                <div class="ml-3 p-2 small_circle rounded-circle aqua_scircle">h</div>
-            </section>
-        </div>
-        <br>
-        <div class="picture-block col-xs-12 col-s-6">
-            <img src="macbook.jpg" alt="macbook">
-            <section class="m-auto img_footer d-flex justify-content-center p-2">
-                <div class="mr-auto"><h3>featured project</h3></div>
-                <div class="p-2 small_circle rounded-circle orange_scircle ">d</div>
-                <div class="mx-3 p-2 small_circle gold_bcircle rounded-circle">d</div>
-                <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
-                <div class="ml-3 p-2 small_circle rounded-circle aqua_scircle">h</div>
-            </section>
-        </div>
-        <br>
-        <div class="picture-block col-xs-12 col-s-6">
-            <img src="man.jpg" alt="man">
-            <section class="m-auto img_footer d-flex justify-content-center p-2">
-                <div class="mr-auto"><h3>featured project</h3></div>
-                <div class="p-2 small_circle rounded-circle orange_scircle ">d</div>
-                <div class="mx-3 p-2 small_circle gold_bcircle rounded-circle">d</div>
-                <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
-                <div class="ml-3 p-2 small_circle rounded-circle aqua_scircle">h</div>
-            </section>
-        </div>
-        <br>
-        <div class="picture-block col-xs-12 col-s-6">
-            <img src="security.jpg" alt="security image">
-            <section class="m-auto img_footer d-flex justify-content-center p-2">
-                <div class="mr-auto"><h3>featured project</h3></div>
-                <div class="p-2 small_circle rounded-circle orange_scircle ">d</div>
-                <div class="mx-3 p-2 small_circle gold_bcircle rounded-circle">d</div>
-                <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
-                <div class="ml-3 p-2 small_circle rounded-circle aqua_scircle">h</div>
-            </section>
-        </div>
+<article class="text-uppercase container w-100">
+    <section class="row">
+    <div class="left_article col-xs-12 col-s-12 col-m-9">
+        <h3 class="mb-3">selected work</h3>
+        <section class="picture-block-2 row justify-content-around">
+            <div class="picture-block col-xs-12 col-s-6 col-m-6 col-l-6 col-xl-6">
+                <img src="apple-ipad.jpg" class="rounded left_image" alt="apple with ipad">
+                <section class="m-auto img_footer d-flex justify-content-center p-2">
+                    <div class="mr-auto footer_text"><h3>featured project</h3></div>
+                    <div class="p-2 small_circle rounded-circle orange_scircle ">d</div>
+                    <div class="mx-2 p-2 small_circle gold_bcircle rounded-circle">d</div>
+                    <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
+                    <div class="ml-2 p-2 small_circle rounded-circle aqua_scircle">h</div>
+                </section>
+            </div>
+            <br>
+            <div class="picture-block col-xs-12 col-s-6 col-m-6 col-l-6 col-xl-6">
+                <img src="macbook.jpg" class="rounded left_image" alt="macbook">
+                <section class="m-auto img_footer d-flex justify-content-center p-2">
+                    <div class="mr-auto footer_text"><h3>featured project</h3></div>
+                    <div class="p-2 small_circle rounded-circle orange_scircle ">d</div>
+                    <div class="mx-2 p-2 small_circle gold_bcircle rounded-circle">d</div>
+                    <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
+                    <div class="ml-2 p-2 small_circle rounded-circle aqua_scircle">h</div>
+                </section>
+            </div>
+            <br>
+            <div class="picture-block col-xs-12 col-s-6 col-m-6 col-l-6 col-xl-6">
+                <img src="man.jpg" class="rounded left_image" alt="man">
+                <section class="m-auto img_footer d-flex justify-content-center p-2">
+                    <div class="mr-auto footer_text"><h3>featured project</h3></div>
+                    <div class="p-2 small_circle rounded-circle orange_scircle">d</div>
+                    <div class="mx-2 p-2 small_circle gold_bcircle rounded-circle">d</div>
+                    <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
+                    <div class="ml-2 p-2 small_circle rounded-circle aqua_scircle">h</div>
+                </section>
+            </div>
+            <br>
+            <div class="picture-block col-xs-12 col-s-6 col-m-6 col-l-6 col-xl-6">
+                <img src="security.jpg" class="rounded left_image" alt="security image">
+                <section class="m-auto img_footer d-flex justify-content-center p-2">
+                    <div class="mr-auto footer_text"><h3>featured project</h3></div>
+                    <div class="p-2 small_circle rounded-circle orange_scircle ">d</div>
+                    <div class="mx-2 p-2 small_circle gold_bcircle rounded-circle">d</div>
+                    <div class="p-2 small_circle rounded-circle lgreen_scircle">s</div>
+                    <div class="ml-2 p-2 small_circle rounded-circle aqua_scircle">h</div>
+                </section>
+            </div>
+        </section>
+    </div>
+    <div class="right_article col-m-3 d-flex flex-column justify-content-between">
+        <h3 class="mb-5">the last</h3>
+        <section class="d-flex">
+            <div class="mini_image">
+                <img src="mobile-phone.jpg" alt="mobile phone">
+            </div>
+            <div class="side_text">
+                <p class="text-left">the admin bar and absolute positioning</p>
+            </div>
+        </section>
+        <section class="d-flex">
+            <div class="mini_image">
+                <img src="head.jpg" alt="head">
+            </div>
+            <div class="side_text">
+                <p class="text-left">nibbler awesome website testing</p>
+            </div>
+        </section>
+        <section class="d-flex">
+            <div class="mini_image">
+                <img src="ipad.jpg" alt="ipad">
+            </div>
+            <div class="side_text">
+                <p class="text-left">how to get google to like you</p>
+            </div>
+        </section>
+        <p class="text-left" id="last_tweet"><i class="fab fa-twitter"></i><strong> last tweet</strong><br><br>lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy bibh eusimod sorem ipsum dolor sit amet, consectetuer adispicsicng.</p>
+    </div>
     </section>
 </article>
-
+<script src="https://kit.fontawesome.com/2a6f78e7e8.js" crossorigin="anonymous"></script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
