@@ -28,6 +28,10 @@ div h2 {
     height: 105px;
     width: 105px;
 }
+main {
+
+    font-family: 'Anton', sans-serif;
+}
 main h2 {
     font-size: 31px;
 }
@@ -52,8 +56,7 @@ main h1 {
 }
 .orange_bcircle {
     background-color: #e6563b;
-    margin-left: 1.3em;
-    margin-right: 0.5em;
+
 }
 .gold_bcircle {
     background-color: #dea03d;
@@ -61,14 +64,12 @@ main h1 {
 }
 .lgreen_bcircle {
     background-color: #7cb06c;
-    margin-left: 1.3em;
-    margin-right: 0.5em;
-    margin-top: 0.25em;
+
 }
 
 .aqua_bcircle {
     background-color: #00aba9;
-    margin-top: 0.25em;
+
 
 }
 article h3 {
@@ -115,11 +116,42 @@ article img {
 
 
 @media only screen and (max-width: 767px) {
+
+    hr{
+        display: none;
+    }
+
+    .orange_bcircle {
+
+        margin-left: 1.3em;
+        margin-right: 0.5em;
+    }
+    .gold_bcircle {
+
+
+    }
+    .lgreen_bcircle {
+
+        margin-left: 1.3em;
+        margin-right: 0.5em;
+        margin-top: 0.25em;
+    }
+
+    .aqua_bcircle {
+
+        margin-top: 0.25em;
+
+    }
+
+
+
+
     .nav_items {
         position: relative;
         bottom: 85px;
         font-family: 'Abel', sans-serif;
     }
+
     .nav_links {
 
         margin: 0 auto;
@@ -128,24 +160,79 @@ article img {
         justify-content: space-evenly;
         font-size: 13px;
     }
+
     main {
         position: relative;
         bottom: 95px;
         font-family: 'Anton', sans-serif;
     }
+}
+@media only screen and (min-width: 768px){
+
+        .nav_items {
+            position: relative;
+            bottom: 87px;
+            font-family: 'Abel', sans-serif;
+        }
+
+        .nav_links {
+            position: relative;
+            bottom: 117px;
+            width: 100%;
+            right: 7px;
 
 
+       }
+        .work {
+
+            margin-right: 75px;
+            margin-left: 5px;
+
+        }
+        .blog {
+
+            margin-left: 50px ;
+
+        }
+        main {
+            position: relative;
+            bottom: 115px;
+            margin-bottom: 0 !important;
+         }
+        .main_circles{
+            box-sizing: border-box;
+            margin: 0 2em;
 
 
+        }
+
+    hr{
+    width: 75%;
+    }
+
+    .picture-block {
+        box-sizing: content-box;
+        width: 16em;
+        height: 11em;
+        margin: auto;
+
+    }
+    article{
+        position: relative;
+        bottom: 4em;
+        margin: .5em;
 
 
+    }
+    article img {
+        height: 11em;
 
 
+    }
+    .picture-block-2{
+        height: 500px;
 
-
-
-
-
+    }
 
 
 
