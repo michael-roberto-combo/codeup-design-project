@@ -156,7 +156,7 @@ i {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 497px) {
 
     hr {
         display: none;
@@ -195,7 +195,7 @@ i {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 498px) {
     .nav_items {
         position: relative;
         bottom: 87px;
@@ -258,9 +258,12 @@ i {
     .right_article {
         display: none !important;
     }
+    .circle {
+        margin: 3px;
+    }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
     .main_logo {
         position: relative;
         right: 405px;
