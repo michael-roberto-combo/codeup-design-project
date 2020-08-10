@@ -49,13 +49,13 @@ main h1 {
 }
 
 .main_circles {
-    font-size: 31px !important;
+    font-size: 24px !important;
     color: white;
     margin-top: 16px;
 }
 
 .circle {
-    box-sizing: content-box;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,8 +156,7 @@ i {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 497px) {
-
+@media only screen and (max-width: 575px) {
     hr {
         display: none;
     }
@@ -193,9 +192,12 @@ i {
     .img_footer {
         width: 100%;
     }
+    .picture-block-2 {
+        margin: 0 auto !important;
+    }
 }
 
-@media only screen and (min-width: 498px) {
+@media only screen and (min-width: 576px) {
     .nav_items {
         position: relative;
         bottom: 87px;
@@ -228,6 +230,8 @@ i {
     .main_circles {
         box-sizing: border-box;
         margin: 0 2em;
+        flex-wrap: nowrap !important;
+        padding: 0 !important;
     }
 
     .left_image {
@@ -237,22 +241,24 @@ i {
     hr {
         width: 65%;
     }
+    .left_article {
+        width: 100% !important;
+    }
 
     .picture-block {
-        box-sizing: content-box;
-        width: 16em;
-        height: 11em;
-        margin: auto;
+        box-sizing: border-box;
+        width: 10em;
+        height: 9em;
     }
 
     article {
         position: relative;
         bottom: 4em;
-        margin: .5em;
     }
 
     .picture-block-2 {
         height: 500px;
+        margin: 0 auto !important;
     }
 
     .right_article {
@@ -266,13 +272,13 @@ i {
 @media only screen and (min-width: 768px) {
     .main_logo {
         position: relative;
-        right: 405px;
+        right: 325px;
     }
 
     .text_logo {
         position: relative;
         bottom: 69.5px;
-        right: 250px;
+        right: 170px;
     }
 
     .work {
@@ -287,7 +293,7 @@ i {
     .nav_links {
         position: relative;
         width: 280px;
-        right: -350px;
+        right: -255px;
         margin: 0 auto;
     }
 
@@ -296,18 +302,25 @@ i {
     }
 
     .left_article {
-        width: 70% !important;
+        width: 60% !important;
+    }
+    .left_article>h3 {
+        text-align: left;
+        padding-left: 23px;
     }
 
     .right_article {
         display: block !important;
-        width: 30% !important;
+        width: 40% !important;
+    }
+    .right_article h3 {
+        text-align: left;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
     hr {
-        width: 75%;
+        width: 40%;
     }
 
     .left_image {
@@ -317,9 +330,8 @@ i {
 
     .picture-block {
         box-sizing: border-box;
-        width: 16em;
-        height: 11em;
-        margin: auto;
+        width: 10em;
+        height: 9em;
     }
 
     .img_footer {
