@@ -302,7 +302,8 @@ i {
     }
 
     .left_article {
-        width: 60% !important;
+        width: 70% !important;
+        padding: 0 !important;
     }
     .left_article>h3 {
         text-align: left;
@@ -311,7 +312,7 @@ i {
 
     .right_article {
         display: block !important;
-        width: 40% !important;
+        width: 30% !important;
     }
     .right_article h3 {
         text-align: left;
@@ -337,5 +338,20 @@ i {
     .img_footer {
         width: 256px;
     }
-
+  .left_article{
+      width: 635.33px !important;
+      height: 538px !important;
+  }
+  .right_article {
+      width: 317.656px !important;
+      height: 538px !important;
+  }
+    .left_article>h3 {
+        padding-left: 34px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .left_article>h3 {
+        padding-left: 65px;
+    }
 }
