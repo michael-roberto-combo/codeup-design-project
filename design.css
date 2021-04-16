@@ -119,10 +119,16 @@ article img {
     font-family: 'Anton', sans-serif;
 }
 .mini_image{
+
     width: 70px !important;
     height: 80px !important;
     box-sizing: border-box;
 
+}
+.mini_imageOne{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    line-height: normal;
 }
 .right_article img{
     border: 1px #e6e6e6 solid;
@@ -171,72 +177,90 @@ i {
     }
 }
 @media only screen and (min-width: 768px){
-
+        /*nav bar and logo moved into place*/
         .nav_items {
             position: relative;
             bottom: 87px;
             font-family: 'Abel', sans-serif;
         }
-
+        /*nav items services,work,blog,contact moved around logo*/
         .nav_links {
             position: relative;
             bottom: 115.5px;
             right: 7px;
        }
+        /*spaced around logo*/
         .work {
 
             margin-right: 75px;
             margin-left: 5px;
 
         }
+
+        /*spaced around logo*/
         .blog {
 
             margin-left: 50px ;
 
         }
+
+        /*circles moved up*/
         main {
             position: relative;
             bottom: 115px;
             margin-bottom: 0 !important;
          }
+
+        /*circles sqeezed together*/
         .main_circles{
             box-sizing: border-box;
             margin: 0 2em;
 
-
         }
 
-    .left_image {
+        /*smaller hr*/
+        hr{
+            width: 65%;
+        }
+
+
+        /*changed height*/
+        .left_image {
         height: 11em;
-    }
+        }
 
-    hr{
-    width: 65%;
-    }
 
-    .picture-block {
+
+        /*changed height to adjust size and space between*/
+        .picture-block {
         box-sizing: content-box;
         width: 16em;
         height: 11em;
         margin: auto;
+        }
 
-    }
-    article{
+        /*adjusted location*/
+        .picture-block-2{
+            height: 500px;
+
+        }
+
+
+        /*moved the picture group into place*/
+        article{
         position: relative;
         bottom: 4em;
         margin: .5em;
+        }
 
 
-    }
-
-    .picture-block-2{
-        height: 500px;
-
-    }
-    .right_article {
-        display: none !important;
-    }
+        /*to hide the article on right for this query*/
+        .right_article {
+            display: none !important;
+        }
 }
+
+
 @media only screen and (min-width: 992px){
     .main_logo {
     position: relative;
